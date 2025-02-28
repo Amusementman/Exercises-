@@ -3,9 +3,9 @@
 menu = { "Pizza": 1.99, "Soda":  0.69, "Double Chunk Chocolate Chip Cookie": 2.49}
 
 def items_prices(item, price):
-    menu.update(item, price)
+    menu.update(item = "Watermelon", price = 0.78)
 
-items_prices(item = "watermelon", price = 0.78)
+items_prices(item, price)
 print(str(menu))
 
 #Create a function that has two parameters, item and price, and adds that item and price into the menu dictionary.
